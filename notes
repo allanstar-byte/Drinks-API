@@ -1,0 +1,20 @@
+// Geddit the model through an API call
+
+// 1. Install Djava rest framework
+// 2. Add it to the Installed_Apps on settings ('rest_framework')
+// 3. Add a file calles "serializers.py" to the app 
+// 4. Inside the file add a class forexample "DrinkSerializer(serializers.ModelSerializer)"
+// 5. from rest_framework import serializers
+// 6. Nest a class Meta and define (
+
+        //                 class Meta:
+        //                     model = Drink
+        // f                   ields = ['id', 'name', 'description']      
+
+        //                             )
+
+// 7. Create view.py to create the endpoints
+// 8. Create a funtion 
+                    // get all the drinks
+                    //    serialize them
+                    //    return json
